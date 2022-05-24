@@ -1,0 +1,72 @@
+@import url('colors.css');
+@import url('text.css');
+
+/******************************************
+/* MATERIAL ICONS
+/*******************************************/
+/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons"); */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+
+/******************************************
+/* GOOGLE FONTS
+/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&display=swap');
+
+/* Box Model Hack */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+    font: normal 400 62.5% 'Montserrat', Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+#btn {
+    font-size: 2rem;
+    color: hsl(0, 100%,100%);
+    padding: 1rem 2rem;
+    background: hsl(200, 50%, 50%);
+    border: none;
+}
+
+#result {
+    font-size: 3.2rem;
+}
+
+/******************************************/
+/************ FOR TESTING ONLY ************/
+/******************************************/
+.br-red {
+    border: 1px solid red;
+}
+.brc-red > * {
+    border: 1px solid red;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
